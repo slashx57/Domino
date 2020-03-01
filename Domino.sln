@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gbd.IO.Serial", "Gbd.IO.Serial\Gbd.IO.Serial.csproj", "{BF647B40-E8B4-4681-833D-D0C1A5D58245}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gbd.IO.Serial.LinuxMono", "Gbd.IO.Serial.LinuxMono\Gbd.IO.Serial.LinuxMono.csproj", "{4D13614E-41FA-4529-95D3-E5C973584708}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DominoX10", "DominoX10\DominoX10.csproj", "{5DF28D41-0E2F-485D-ABF2-C73AD8217B29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DominoHitachi", "DominoHitachi\DominoHitachi.csproj", "{41758820-32D7-41BA-A173-9FA882BF24B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DominoTeleinfo", "DominoTeleinfo\DominoTeleinfo.csproj", "{225C8C9B-FC21-4DF5-B9C6-E5626698A8DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DominoAlarm", "DominoAlarm\DominoAlarm.csproj", "{D80CF297-FE74-4FEF-AAA5-EFE7A259DD07}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DominoShared", "DominoShared\DominoShared.csproj", "{6A5DFD16-CE02-4928-91D7-82E5240FFD32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DominoVC", "DominoViessmann\DominoVC.csproj", "{D141B354-7B80-4D4A-ADA7-76682DA98C22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF647B40-E8B4-4681-833D-D0C1A5D58245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF647B40-E8B4-4681-833D-D0C1A5D58245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF647B40-E8B4-4681-833D-D0C1A5D58245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D13614E-41FA-4529-95D3-E5C973584708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D13614E-41FA-4529-95D3-E5C973584708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D13614E-41FA-4529-95D3-E5C973584708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DF28D41-0E2F-485D-ABF2-C73AD8217B29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DF28D41-0E2F-485D-ABF2-C73AD8217B29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DF28D41-0E2F-485D-ABF2-C73AD8217B29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DF28D41-0E2F-485D-ABF2-C73AD8217B29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41758820-32D7-41BA-A173-9FA882BF24B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41758820-32D7-41BA-A173-9FA882BF24B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41758820-32D7-41BA-A173-9FA882BF24B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{225C8C9B-FC21-4DF5-B9C6-E5626698A8DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{225C8C9B-FC21-4DF5-B9C6-E5626698A8DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{225C8C9B-FC21-4DF5-B9C6-E5626698A8DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D80CF297-FE74-4FEF-AAA5-EFE7A259DD07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D80CF297-FE74-4FEF-AAA5-EFE7A259DD07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D80CF297-FE74-4FEF-AAA5-EFE7A259DD07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A5DFD16-CE02-4928-91D7-82E5240FFD32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A5DFD16-CE02-4928-91D7-82E5240FFD32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A5DFD16-CE02-4928-91D7-82E5240FFD32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D141B354-7B80-4D4A-ADA7-76682DA98C22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D141B354-7B80-4D4A-ADA7-76682DA98C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D141B354-7B80-4D4A-ADA7-76682DA98C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3CE3EB9-6252-4D55-B322-A327FDDDBE5D}
+	EndGlobalSection
+EndGlobal
