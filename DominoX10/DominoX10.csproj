@@ -31,7 +31,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DominoShared\DominoShared.csproj" />
-    <ProjectReference Include="..\packages\Gbd.IO.Serial\Source\Libs\Gbd.IO.Serial.LinuxMono\Gbd.IO.Serial.LinuxMono.csproj" />
+    <ProjectReference Include="..\Gbd.IO.Serial\Source\Libs\Gbd.IO.Serial.LinuxMono\Gbd.IO.Serial.LinuxMono.csproj" />
   </ItemGroup>
 
   <ItemGroup>

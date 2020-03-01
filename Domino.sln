@@ -15,9 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DominoShared", "DominoShare
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DominoVC", "DominoViessmann\DominoVC.csproj", "{D141B354-7B80-4D4A-ADA7-76682DA98C22}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gbd.IO.Serial", "packages\Gbd.IO.Serial\Source\Libs\Gbd.IO.Serial\Gbd.IO.Serial.csproj", "{D0F06CA9-B7BC-46EA-9908-B0169C559F70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gbd.IO.Serial", "Gbd.IO.Serial\Source\Libs\Gbd.IO.Serial\Gbd.IO.Serial.csproj", "{7FF07CD7-94C2-4C10-BC01-42B0E8B261E2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gbd.IO.Serial.LinuxMono", "packages\Gbd.IO.Serial\Source\Libs\Gbd.IO.Serial.LinuxMono\Gbd.IO.Serial.LinuxMono.csproj", "{5D492892-5806-46B8-8CCC-6420749DCBBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gbd.IO.Serial.LinuxMono", "Gbd.IO.Serial\Source\Libs\Gbd.IO.Serial.LinuxMono\Gbd.IO.Serial.LinuxMono.csproj", "{0B4BF5C3-8CCC-47AD-8F99-555DF286D58E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,14 +45,14 @@ Global
 		{D141B354-7B80-4D4A-ADA7-76682DA98C22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D141B354-7B80-4D4A-ADA7-76682DA98C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D141B354-7B80-4D4A-ADA7-76682DA98C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D0F06CA9-B7BC-46EA-9908-B0169C559F70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D0F06CA9-B7BC-46EA-9908-B0169C559F70}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D0F06CA9-B7BC-46EA-9908-B0169C559F70}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D0F06CA9-B7BC-46EA-9908-B0169C559F70}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5D492892-5806-46B8-8CCC-6420749DCBBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5D492892-5806-46B8-8CCC-6420749DCBBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5D492892-5806-46B8-8CCC-6420749DCBBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5D492892-5806-46B8-8CCC-6420749DCBBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FF07CD7-94C2-4C10-BC01-42B0E8B261E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FF07CD7-94C2-4C10-BC01-42B0E8B261E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FF07CD7-94C2-4C10-BC01-42B0E8B261E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FF07CD7-94C2-4C10-BC01-42B0E8B261E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B4BF5C3-8CCC-47AD-8F99-555DF286D58E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B4BF5C3-8CCC-47AD-8F99-555DF286D58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B4BF5C3-8CCC-47AD-8F99-555DF286D58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B4BF5C3-8CCC-47AD-8F99-555DF286D58E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
