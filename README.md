@@ -1,3 +1,5 @@
+![Build](https://github.com/slashx57/Domino/workflows/Build/badge.svg)
+
 # Domino
 Domino is a set of projects for Home Automation written in dotnetCore C#, tested and running on **Linux** system.
 It communicates with IoT devices and use MQTT messaging to share data.
