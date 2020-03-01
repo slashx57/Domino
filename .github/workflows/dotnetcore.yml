@@ -9,9 +9,14 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    
+    - name: Checkout Gbd.Serial
+      run: git clone https://github.com/ASoftTech/Gbd.IO.Serial.git packages
+
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 2.2.108
+
     - name: Build with dotnet
-      run: dotnet build DominoX10/DominoX10.csproj --configuration Release
+      run: dotnet build --configuration Release
