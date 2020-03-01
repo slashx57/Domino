@@ -1,0 +1,37 @@
+{
+  "Main": {
+    "MQTTUser": "set in secrets.json",
+    "MQTTPwd": "set in secrets.json",
+    "MQTTDns": "192.168.1.2",
+    "MQTTPort": "1883",
+    "MQTTSSL": "false",
+    "MailSender": "set in secrets.json",
+    "MailServer": "192.168.1.2",
+    "MailAccount": "set in secrets.json",
+    "MailPassword": "set in secrets.json"
+  },
+  "DmnAlarm": {
+    "ServerDns": "192.168.1.2",
+    "Pwd": "set in secrets.json",
+    "Account": "set in secrets.json",
+    "ServerPort": "143",
+    "MQTTRoot": "alarm"
+  },
+  "DmnX10": {
+    "PortName": "/dev/ttyS0",
+    "MQTTRoot": "x10"
+  },
+  "DmnHitachi": {
+    "MQTTRoot": "hlrr",
+    "SiteUrl": "set in secrets.json",
+    "Uid": "set in secrets.json",
+    "Upwd": "set in secrets.json"
+  },
+  "DmnVC": {
+    "Dns": "192.168.1.2",
+    "Port": "3002",
+    "MQTTRoot": "vc"
+  }
+
+}
+

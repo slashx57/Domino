@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- dans CommandWindow > Debug.MIDebugLaunch /Executable:dotnet /OptionsFile:"D:\Documents\Visual Studio 2017\Projects\Domino\TestX10\DebugPipe.xml"-->
+
+<PipeLaunchOptions xmlns="http://schemas.microsoft.com/vstudio/MDDDebuggerOptions/2014"
+  PipePath="D:\Program Files (x86)\PuTTY\plink.exe"
+  PipeArguments='-i "D:\Documents\Visual Studio 2017\Projects\Domino\debug.ppk" debug@192.168.1.2 -P 444 -batch -t ~/.vs-debugger/vs2017u1/vsdbg --interpreter=mi '
+  TargetArchitecture="x64" 
+  MIMode="vsdbg" 
+  ExePath="dotnet" 
+  WorkingDirectory="/var/www/domino/test"   
+  ExeArguments="./TestX10.dll">
+</PipeLaunchOptions>

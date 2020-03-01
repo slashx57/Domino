@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DmnX10": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "NETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
